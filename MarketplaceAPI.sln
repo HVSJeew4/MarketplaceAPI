@@ -5,6 +5,12 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketplaceAPI", "MarketplaceAPI\MarketplaceAPI.csproj", "{4721ECDE-F257-4479-A19A-57E339D74DEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketplaceAPI.Core", "MarketplaceAPI.Core\MarketplaceAPI.Core.csproj", "{4642978B-FBDC-445B-9EEF-93A9628B3E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketplaceAPI.Infrastructure", "MarketplaceAPI.Infrastructure\MarketplaceAPI.Infrastructure.csproj", "{4CA286F0-A0D4-4E91-9105-540DB19FDBCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketplaceAPI.Application", "MarketplaceAPI.Application\MarketplaceAPI.Application.csproj", "{87D30097-E90B-44BC-9180-287016A582C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{4721ECDE-F257-4479-A19A-57E339D74DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4721ECDE-F257-4479-A19A-57E339D74DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4721ECDE-F257-4479-A19A-57E339D74DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4642978B-FBDC-445B-9EEF-93A9628B3E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4642978B-FBDC-445B-9EEF-93A9628B3E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4642978B-FBDC-445B-9EEF-93A9628B3E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4642978B-FBDC-445B-9EEF-93A9628B3E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA286F0-A0D4-4E91-9105-540DB19FDBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA286F0-A0D4-4E91-9105-540DB19FDBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA286F0-A0D4-4E91-9105-540DB19FDBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA286F0-A0D4-4E91-9105-540DB19FDBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D30097-E90B-44BC-9180-287016A582C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D30097-E90B-44BC-9180-287016A582C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D30097-E90B-44BC-9180-287016A582C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D30097-E90B-44BC-9180-287016A582C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
