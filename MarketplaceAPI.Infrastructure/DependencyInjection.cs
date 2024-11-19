@@ -14,7 +14,7 @@ namespace MarketplaceAPI.Infrastructure
             
             service.AddDbContext<AppDBContext>(options =>
             {
-                options.UseSqlServer("Server=DESKTOP-UV92TIS;Database=TestAPIDB;Trusted_Connection=False;User Id=machcha;Password=machcha12345;TrustServerCertificate=True;");
+                options.UseSqlServer("Server=DESKTOP-UV92TIS;Database=TestAPIDB;Trusted_Connection=True;TrustServerCertificate=True;User Id=machcha;Password=machcha12345;Trusted_Connection=True;TrustServerCertificate=True;User Id=machcha;Password=machcha12345;");
 
             });
             

@@ -12,7 +12,7 @@ namespace MarketplaceAPI.Infrastructure.Repositories
             return await dBContext.Employees.ToListAsync();
         }
 
-        public async Task<EmployeeEntity> GetEmployeeById(Guid id)
+        public async Task<EmployeeEntity> GetEmployeeByIdAsync(Guid id)
         {
             return await dBContext.Employees.FirstOrDefaultAsync(x => x.Id == id);
         }

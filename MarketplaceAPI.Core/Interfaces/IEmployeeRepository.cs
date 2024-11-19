@@ -11,7 +11,7 @@ namespace MarketplaceAPI.Core.Interfaces
     {
         Task<IEnumerable<EmployeeEntity>> GetEmployees();
 
-        Task<EmployeeEntity> GetEmployeeById(Guid id);
+        Task<EmployeeEntity> GetEmployeeByIdAsync(Guid id);
         Task<EmployeeEntity> AddEmployeeAsync(EmployeeEntity entity);
         Task<EmployeeEntity> UpdateEmployeeAsync(Guid employeeId, EmployeeEntity entity);
         Task<bool> DeleteEmployeeAsync(Guid employeeId);
